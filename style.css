@@ -98,13 +98,14 @@ main {
 main h1 {
     background-image: linear-gradient(to right, var(--cor0), transparent);
     border-radius: 2px;
-    height: 35px;
+    max-height: 100px;
     font-family: var(--fonte-android);
     color:var(--cor5);
     text-indent: 5px;
     padding-top: 7px;
+    padding-bottom: 7px;
     font-weight: normal;
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 main img {
@@ -126,10 +127,10 @@ main h2 {
 
 main p {
     text-align: justify;
-    margin: 15px 0px;
+    margin: 18px 0px;
     text-indent: 20px;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 main strong {
